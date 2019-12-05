@@ -13,7 +13,8 @@ const routes: Routes = [
   },
   { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
   { path: 'daftar', loadChildren: './daftar/daftar.module#DaftarPageModule' },
-  { path: 'halaman-awal', loadChildren: './halaman-awal/halaman-awal.module#HalamanAwalPageModule' },  { path: 'akun', loadChildren: './akun/akun.module#AkunPageModule' }
+  { path: 'halaman-awal', loadChildren: './halaman-awal/halaman-awal.module#HalamanAwalPageModule' },
+  { path: 'akun', loadChildren: './akun/akun.module#AkunPageModule' }
 
 ];
 
