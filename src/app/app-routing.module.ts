@@ -13,7 +13,8 @@ const routes: Routes = [
   },
   { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
   { path: 'daftar', loadChildren: './daftar/daftar.module#DaftarPageModule' },
-  { path: 'halaman-awal', loadChildren: './halaman-awal/halaman-awal.module#HalamanAwalPageModule' }
+  { path: 'halaman-awal', loadChildren: './halaman-awal/halaman-awal.module#HalamanAwalPageModule' },  { path: 'editprofil', loadChildren: './editprofil/editprofil.module#EditprofilPageModule' }
+
 ];
 
 @NgModule({
