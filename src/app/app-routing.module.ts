@@ -14,8 +14,13 @@ const routes: Routes = [
   { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
   { path: 'daftar', loadChildren: './daftar/daftar.module#DaftarPageModule' },
   { path: 'halaman-awal', loadChildren: './halaman-awal/halaman-awal.module#HalamanAwalPageModule' },
-  { path: 'akun', loadChildren: './akun/akun.module#AkunPageModule' }
-
+  { path: 'tambahmenu', loadChildren: './tambahmenu/tambahmenu.module#TambahmenuPageModule' },
+  { path: 'deskripsi', loadChildren: './deskripsi/deskripsi.module#DeskripsiPageModule' },
+  { path: 'editprofil', loadChildren: './editprofil/editprofil.module#EditprofilPageModule' },
+  { path: 'akun', loadChildren: './akun/akun.module#AkunPageModule' },
+  { path: 'lokasihidupmati', loadChildren: './lokasihidupmati/lokasihidupmati.module#LokasihidupmatiPageModule' },
+  { path: 'profil', loadChildren: './profil/profil.module#ProfilPageModule' },
+  { path: 'dagangant', loadChildren: './dagangant/dagangant.module#DagangantPageModule' },
 ];
 
 @NgModule({
