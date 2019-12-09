@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+<<<<<<< HEAD
 
 const routes: Routes = [
   {
@@ -30,6 +31,9 @@ const routes: Routes = [
 })
 export class AppRoutingModule {}
 =======
+=======
+
+>>>>>>> 8f7dc4d87faa2bf027f3ff38b849fd6b5c22d981
 const routes: Routes = [
   {
     path: '',
@@ -56,4 +60,3 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule {}
->>>>>>> 7486ab2e8f5e950f90fd415c271b3b64d4cfb642
