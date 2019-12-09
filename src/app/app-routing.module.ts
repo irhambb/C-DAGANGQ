@@ -20,7 +20,8 @@ const routes: Routes = [
   { path: 'akun', loadChildren: './akun/akun.module#AkunPageModule' },
   { path: 'lokasihidupmati', loadChildren: './lokasihidupmati/lokasihidupmati.module#LokasihidupmatiPageModule' },
   { path: 'profil', loadChildren: './profil/profil.module#ProfilPageModule' },
-  { path: 'dagangant', loadChildren: './dagangant/dagangant.module#DagangantPageModule' },
+  { path: 'dagangant', loadChildren: './dagangant/dagangant.module#DagangantPageModule' },  { path: 'lokasi', loadChildren: './lokasi/lokasi.module#LokasiPageModule' },
+
 ];
 
 @NgModule({
