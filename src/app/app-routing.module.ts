@@ -17,7 +17,8 @@ const routes: Routes = [
   { path: 'deskripsikedai', loadChildren: './deskripsikedai/deskripsikedai.module#DeskripsikedaiPageModule' },
   { path: 'editprofil', loadChildren: './editprofil/editprofil.module#EditprofilPageModule' },
   { path: 'akun', loadChildren: './akun/akun.module#AkunPageModule' },
-  { path: 'lokasihidupmati', loadChildren: './lokasihidupmati/lokasihidupmati.module#LokasihidupmatiPageModule' },
+  { path: 'lokasihidupmati', loadChildren: './lokasihidupmati/lokasihidupmati.module#LokasihidupmatiPageModule' },  { path: 'maps', loadChildren: './maps/maps.module#MapsPageModule' },
+
 ];
 
 @NgModule({
