@@ -1,15 +1,17 @@
-<ion-content color="primary" padding>
+<ion-content color="secondary" padding>
     <div style="text-align: center; padding-top: 100px; padding-bottom: 10px;">
       <ion-label style="font-size: larger;">DAGANG Q</ion-label>
     </div>
       <ion-item style="padding-bottom: 20px;">
-        <ion-label position="floating">Email</ion-label>
-        <ion-input type="text"></ion-input>
+       <ion-label position="floating" style="color: black;">Username</ion-label>
+        <ion-input style="color: black;" [(ngModel)]="username"></ion-input>
       </ion-item>
       <ion-item style="padding-bottom: 20px;">
-        <ion-label position="floating">Password</ion-label>
-        <ion-input type="password"></ion-input>
+       <ion-label position="floating" style="color: black;">Password</ion-label>
+       <ion-input type="password" style="color: black;" [(ngModel)]="password"></ion-input>
       </ion-item>
   
-      <ion-button style="float: right;">MASUK</ion-button>
+       <div padding>
+      <ion-button expand="block" shape="round" (click)="proseslogin()" color="primary">Login</ion-button>
+    </div>
   </ion-content>
