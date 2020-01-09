@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import * as mapboxgl from 'mapbox-gl';
 import { Map, latLng, tileLayer, Layer, marker, icon } from 'leaflet';
+import { Router } from '@angular/router';
+
 
 
 @Component({
@@ -12,9 +14,13 @@ export class MapsPage implements OnInit {
 
   map: mapboxgl.Map;
 
-  constructor() { }
+   constructor(public router: Router) {}
 
   ngOnInit() {
+  }
+  
+  pBalik() {
+    this.router.navigate(['profil']);
   }
 
   ionViewDidEnter() { this.leafletMap(); }

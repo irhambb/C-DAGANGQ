@@ -1,0 +1,26 @@
+<ion-header>
+<ion-toolbar color="primary">
+  <ion-button (click)="kembali()" color="light">
+    <ion-icon name="arrow-back" style="font-size: 120%;"></ion-icon>
+</ion-button>
+    <div style="text-align: center; padding-top: px; padding-bottom: 10px; position: relative;">
+<ion-label style="font-size: 30px;">DAGANG Q</ion-label>
+</div>
+</ion-toolbar>
+</ion-header>
+<ion-content color="secondary">
+    <div style="text-align: center; padding-top: 0px; padding-bottom: 0px;">
+        <ion-label style="font-size: 25px;">Dagangan Terdekat</ion-label>
+      </div>
+        <ion-list lines="none">
+          <ion-item  color="secondary" lines="none">
+              <div style="text-align: left; padding-top: 20px; padding-bottom: 10px;">
+                  <img src="/assets/Test.svg" width="50%"/> </div>
+            <div><h6 style="color: black;">Nasi Goreng Bang Jali</h6>
+            <h6 style="color: black;">* Buka Dari Jam 8 Pagi Sampai Jam 12 Malam</h6>
+            <ion-button><h6 (click)="maps()" style="color: black;">* Lihat Lokasi Saya</h6></ion-button>
+          </div>
+          </ion-item>
+        </ion-list>
+    
+  </ion-content>

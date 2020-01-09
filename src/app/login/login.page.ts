@@ -25,8 +25,8 @@ export class LoginPage implements OnInit {
   ngOnInit() {
   }
 
-  formdeskripsi() {
-    this.router.navigate(['/deskripsikedai']);
+  pBalik() {
+    this.router.navigate(['profil']);
   }
 
   async proseslogin() {
@@ -40,7 +40,7 @@ export class LoginPage implements OnInit {
        var alertpesan = data.msg;
        if (data.success) {
          this.storage.set('session_storage', data.result);
-         this.router.navigate(['/tabs']);
+         this.router.navigate(['/profil']);
          const toast = await this.toastController.create({
           message: 'Berhasil Login Akun!',
           duration: 3000

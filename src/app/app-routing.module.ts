@@ -18,6 +18,11 @@ const routes: Routes = [
   { path: 'editprofil', loadChildren: './editprofil/editprofil.module#EditprofilPageModule' },
   { path: 'akun', loadChildren: './akun/akun.module#AkunPageModule' },
   { path: 'lokasihidupmati', loadChildren: './lokasihidupmati/lokasihidupmati.module#LokasihidupmatiPageModule' },  { path: 'maps', loadChildren: './maps/maps.module#MapsPageModule' },
+  { path: 'profil', loadChildren: './profil/profil.module#ProfilPageModule' },
+  { path: 'list', loadChildren: './list/list.module#ListPageModule' },
+  { path: 'dagangant', loadChildren: './dagangant/dagangant.module#DagangantPageModule' },
+  { path: 'tambahjualan', loadChildren: './tambahjualan/tambahjualan.module#TambahjualanPageModule' },
+  { path: 'jualan', loadChildren: './jualan/jualan.module#JualanPageModule' },
 
 ];
 

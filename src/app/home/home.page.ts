@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-
+import { Router } from '@angular/router';
+ 
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
@@ -7,6 +8,22 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor(public router: Router) {}
 
+ ngOnInit() {
+	 }
+
+  formLogin() {
+    this.router.navigate(['/login']);
+  }
+  
+
+  formDaftar() {
+    this.router.navigate(['/daftar']);
+  }
+  
+
+  masukPembeli() {
+    this.router.navigate(['/dagangant']);
+  }
 }
